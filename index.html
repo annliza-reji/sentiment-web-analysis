@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+
+    <style>
+        body{
+            background-color: lightblue;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 100px;
+        }
+
+        input{
+            padding: 10px;
+            width: 300px;
+        }
+
+        button{
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        h2{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Sentiment Analysis Project</h1>
+
+    <form method="POST">
+        <input type="text" name="text" placeholder="Enter text">
+        <button type="submit">Analyze</button>
+    </form>
+
+    <h2>{{ result }}</h2>
+
+</body>
+</html>
